@@ -1,0 +1,128 @@
+body
+{
+    background-image: url('nuvi2.png');background-size: cover;background-repeat: no-repeat;
+}
+.pname
+{
+    /* background-color:green; */
+    text-align: center;
+    font-family: monospace;
+    color:#362727;
+    width:500px;
+    height:40px;
+    margin-left:450px;
+    padding:5pt;
+    font-size: 15pt;
+    margin-top:150px;
+    border-radius: 5pt;
+    
+    
+}
+#pname
+{
+    border-radius:5pt;
+    border:black;
+    height:30px;
+    width:200px;
+    background-color:#c0c0c0;
+    
+}
+.page
+{
+    /* background-color:green; */
+    text-align: center;
+    font-family: monospace;
+    color:#362727;
+    width:500px;
+    height:40px;
+    margin-left:450px;
+    padding:5pt;
+    font-size: 15pt;
+    /* margin-top:200px; */
+    border-radius: 5pt;
+    
+}
+#page
+{
+    border-radius:5pt;
+    border:black;
+    height:30px;
+    width:200px;
+    background-color:#c0c0c0;
+    
+}
+.ptemp
+{
+    /* background-color:green; */
+    text-align: center;
+    font-family: monospace;
+    color:#362727;
+    width:500px;
+    height:40px;
+    margin-left:450px;
+    padding:5pt;
+    font-size: 15pt;
+    
+    border-radius: 5pt;
+}
+#ptemp
+{
+    border-radius:5pt;
+    border:black;
+    height:30px;
+    width:200px;
+    
+    background-color:#c0c0c0;
+}
+.pdes
+{
+    /* background-color:green; */
+    text-align: center;
+    font-family: monospace;
+    color:#362727;
+    width:500px;
+    height:100px;
+    margin-left:450px;
+    padding:5pt;
+    
+    font-size: 15pt;
+    
+    border-radius: 5pt;
+}
+#pdes
+{
+    border-radius:5pt;
+    border:black;
+    height:100px;
+    width:300px;
+    
+    background-color:#c0c0c0;
+}
+.ppres
+{
+    /* background-color:green; */
+    text-align: center;
+    font-family: monospace;
+    color:#362727;
+    width:500px;
+    height:300px;
+    margin-left:450px;
+    padding:5pt;
+    
+    font-size: 15pt;
+    
+    border-radius: 5pt;
+}
+#ppres
+{
+    border-radius:5pt;
+    border:black;
+    height:200px;
+    width:300px;
+    
+    background-color:#c0c0c0;
+}
+#chatbot
+{
+    
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nuvi | Personal Medical Assistant</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css.css')}}">
+    </head>
+    
+    
+    <body>
+        
+            <div class="pname"><label>Patient's Name:<input type="text" id="pname" value="{{pname}}"/></label></div>
+            <div class="page"><label>Patient's Age:<input type="text" id="page" value="{{page}}"/></label></div>
+            <div class="ptemp"><label>Body Temperature:<input type="text" id="ptemp" value="{{ptemp}}"/></label></div>
+            <div class="pdes"><label>Description:<textarea id="pdes">{{pdes}}</textarea></label></div>
+            <div class="ppres"><label>Prescription:<textarea id="ppres">{{ppres}}</textarea></label></div>
+            
+            
+        
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Nuvi | Personal Medical Assistant</title>
+        <link rel='icon' href="{{url_for('static',filename='doctor.png')}}" type='image/png' >
+        
+        <style>
+            #chat
+            {
+                border-radius: 5pt;
+                border:black;
+                position: relative;
+                left:100px;
+                top:-140px;
+            }
+            video {
+                max-width: calc(50% - 100px);
+                margin: 0 50px;
+                box-sizing: border-box;
+                border-radius: 2px;
+                position: relative;
+                top:-500px;
+                padding: 0;
+                box-shadow: rgba(156, 172, 172, 0.2) 0px 2px 2px, rgba(156, 172, 172, 0.2) 0px 4px 4px, rgba(156, 172, 172, 0.2) 0px 8px 8px, rgba(156, 172, 172, 0.2) 0px 16px 16px, rgba(156, 172, 172, 0.2) 0px 32px 32px, rgba(156, 172, 172, 0.2) 0px 64px 64px;
+                }
+            
+        </style>
+    </head>
+    <body>
+        <img src="{{url_for('static',filename='nuvi2.png')}}" width="800px" height="650px"/>
+        <iframe id="chat"
+            allow="microphone;"
+            width="500"
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/1a4eca5d-dcf5-4d37-aa76-e8ae37f338b8">
+        </iframe>
+    </body>
+</html>
